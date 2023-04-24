@@ -1,7 +1,7 @@
-<h1 align="center">Buftabline</h1>
+<h1 align="center">Abuftabline</h1>
 
 <div align="center">
-A well-integrated, low-configuration buffer list that lives in the tabline<br>
+A well-integrated, low-configuration buffer list that lives in the tabline forked from ap/buftabline<br>
 <img src="https://raw.githubusercontent.com/ap/vim-buftabline/fe615be277cfba1ecadc52d61fa173d034817d67/screenshot.png" width="787">
 </div>
 
@@ -74,13 +74,29 @@ open multiple files and then flip between them, which in Vim means they want
 buffers – not tabs.
 
 
-Buftabline vs. X
+Abuftabline vs. X
 ----------------
 
-As of Nov 15, 2014, here is how Buftabline compares with some other plugins
-of which I am aware that they offer related functionality, roughly in order
-of their age.
+As of Apr 19, 2023, here is how Abuftabline compares with some other plugins  of
+which I am aware that they offer related functionality, roughly in order of
+their age.
 
+* [Buftabline](https://github.com/ap/vim-buftabline)
+  
+  Several features had been taken from this plugin, it was the base for the
+  simple reason of his lightweight operation, but it lacks some features that
+  some people consider essential for his workflow, some of them are:
+
+  1. Separator customizations, here you can indicate the way you want to
+     indicate separators, with custom glyphs, or simply indicating the way you
+     want to indicate them, such as simple, slanted and more!
+
+  1. File icon customization integrated with the nerdicons plugin (optional) in
+     case you want/need see the filetype icon to a better integration.
+
+  1. Highlight customization for active-inactive buffers, also this is optional,
+     the default extension can work with it, but you can indicate the way you
+     want to show them.
 
 * [MiniBufExpl](http://www.vim.org/scripts/script.php?script_id=159)
 
@@ -142,6 +158,8 @@ of their age.
   needs to hook into sessions in order to support them, which it does. All in
   all, if you want to use Vim tabs (i.e. viewports), this is probably the best
   plugin for you – Buftabline will be too simplistic for your preferences.
+
+
 
 <!-- vim: et fenc=utf8
 -->

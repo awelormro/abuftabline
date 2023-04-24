@@ -31,49 +31,30 @@
 !_TAG_PARSER_VERSION!Markdown	0.0	/current.age/
 !_TAG_PARSER_VERSION!Vim	0.0	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/abu/Plantillas/vim-buftabline/	//
+!_TAG_PROC_CWD	/home/abu/Plantillas/abuftabline/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	6.0.0	/p6.0.20221218.0/
+Abuftabline vs. X	README.md	/^Abuftabline vs. X$/;"	s
 Buffer basics	README.md	/^Buffer basics$/;"	s
-Buftabline vs. X	README.md	/^Buftabline vs. X$/;"	s
 Why this and not Vim tabs?	README.md	/^Why this and not Vim tabs?$/;"	s
 abuftabline	plugin/abuftabline.vim	/^augroup abuftabline$/;"	a
-abuftabline	plugin/buftabline.vim	/^augroup abuftabline$/;"	a
 abuftabline#render	plugin/abuftabline.vim	/^function! abuftabline#render()$/;"	f
-abuftabline#render	plugin/buftabline.vim	/^function! abuftabline#render()$/;"	f
 abuftabline#update	plugin/abuftabline.vim	/^function! abuftabline#update(zombie)$/;"	f
-abuftabline#update	plugin/buftabline.vim	/^function! abuftabline#update(zombie)$/;"	f
 abuftabline#user_buffers	plugin/abuftabline.vim	/^function! abuftabline#user_buffers() " help buffers are always unlisted, but quickfix buffers ar/;"	f
-abuftabline#user_buffers	plugin/buftabline.vim	/^function! abuftabline#user_buffers() " help buffers are always unlisted, but quickfix buffers ar/;"	f
 g:abuftabline_indicators	plugin/abuftabline.vim	/^let g:abuftabline_indicators = get(g:, 'abuftabline_indicators', 0)$/;"	v
-g:abuftabline_indicators	plugin/buftabline.vim	/^let g:abuftabline_indicators = get(g:, 'abuftabline_indicators', 0)$/;"	v
 g:abuftabline_le_sep	plugin/abuftabline.vim	/^let g:abuftabline_le_sep     = get(g:, 'abuftabline_left_separator', '')$/;"	v
-g:abuftabline_le_sep	plugin/buftabline.vim	/^let g:abuftabline_le_sep     = get(g:, 'abuftabline_left_separator', '')$/;"	v
 g:abuftabline_numbers	plugin/abuftabline.vim	/^let g:abuftabline_numbers    = get(g:, 'abuftabline_numbers',    0)$/;"	v
-g:abuftabline_numbers	plugin/buftabline.vim	/^let g:abuftabline_numbers    = get(g:, 'abuftabline_numbers',    0)$/;"	v
 g:abuftabline_plug_max	plugin/abuftabline.vim	/^let g:abuftabline_plug_max   = get(g:, 'abuftabline_plug_max',  10)$/;"	v
-g:abuftabline_plug_max	plugin/buftabline.vim	/^let g:abuftabline_plug_max   = get(g:, 'abuftabline_plug_max',  10)$/;"	v
 g:abuftabline_ri_sep	plugin/abuftabline.vim	/^let g:abuftabline_ri_sep     = get(g:, 'abuftabline_right_separator', '')$/;"	v
-g:abuftabline_ri_sep	plugin/buftabline.vim	/^let g:abuftabline_ri_sep     = get(g:, 'abuftabline_right_separator', '')$/;"	v
 g:abuftabline_separators	plugin/abuftabline.vim	/^let g:abuftabline_separators = get(g:, 'abuftabline_separators', 0)$/;"	v
-g:abuftabline_separators	plugin/buftabline.vim	/^let g:abuftabline_separators = get(g:, 'abuftabline_separators', 0)$/;"	v
 g:abuftabline_show	plugin/abuftabline.vim	/^let g:abuftabline_show       = get(g:, 'abuftabline_show',       2)$/;"	v
-g:abuftabline_show	plugin/buftabline.vim	/^let g:abuftabline_show       = get(g:, 'abuftabline_show',       2)$/;"	v
 s:SID	plugin/abuftabline.vim	/^function s:SID()$/;"	f
-s:SID	plugin/buftabline.vim	/^function s:SID()$/;"	f
 s:b	plugin/abuftabline.vim	/^	let s:b = s:n == -1 ? -1 : s:n - 1$/;"	v
-s:b	plugin/buftabline.vim	/^	let s:b = s:n == -1 ? -1 : s:n - 1$/;"	v
 s:centerbuf	plugin/abuftabline.vim	/^let s:centerbuf = winbufnr(0)$/;"	v
-s:centerbuf	plugin/buftabline.vim	/^let s:centerbuf = winbufnr(0)$/;"	v
 s:dirsep	plugin/abuftabline.vim	/^let s:dirsep = fnamemodify(getcwd(),':p')[-1:]$/;"	v
-s:dirsep	plugin/buftabline.vim	/^let s:dirsep = fnamemodify(getcwd(),':p')[-1:]$/;"	v
 s:sid	plugin/abuftabline.vim	/^let s:sid = s:SID() | delfunction s:SID$/;"	v
-s:sid	plugin/buftabline.vim	/^let s:sid = s:SID() | delfunction s:SID$/;"	v
 s:switch_buffer	plugin/abuftabline.vim	/^function! s:switch_buffer(bufnum, clicks, button, mod)$/;"	f
-s:switch_buffer	plugin/buftabline.vim	/^function! s:switch_buffer(bufnum, clicks, button, mod)$/;"	f
 s:tablineat	plugin/abuftabline.vim	/^let s:tablineat = has('tablineat')$/;"	v
-s:tablineat	plugin/buftabline.vim	/^let s:tablineat = has('tablineat')$/;"	v
 s:transpile	plugin/abuftabline.vim	/^	function s:transpile()$/;"	f
-s:transpile	plugin/buftabline.vim	/^	function s:transpile()$/;"	f
